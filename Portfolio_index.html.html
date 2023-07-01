@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="practice.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- ----------navwar design--------- -->
+
+    <nav>
+        <div class="left">Portfolio Page</div>
+        <div class="right">
+            <ul>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#Services"> Services</a></li>
+                <li><a href="#portfolio"> Project</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- -----------homepage design---------- -->
+
+    <div id="home">
+        <section class="firstsection">
+            <div class="leftsection">Hey! My Name is<br><span class="purple">Aman</span>
+                <div> And I'm a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                        <a href="Portfolio_Images/Resume.pdf" download>Download Resume</a></button>
+                    <button class="btn">
+                        <a href="https://rb.gy/164cu">Visit My Linkedin</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="Portfolio_Images/Portfolio11.png" alt="">
+            </div>
+        </section>
+    </div>
+    <hr>
+
+    <!-- -------about section--------- -->
+
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1"><img src="Portfolio_Images/IMG_20230624_195429.jpg"></div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Aman Chourasiya, a second year undergrad at MITS Gwalior majoring in CSE. My interest lies in
+                    building web applications. Though I'm a Developer. I think I'm a quick learner and being
+                    technology enthusiast, I am eager to learn new technologies and methodologies. So far I have
+                    good
+                    knowledge of C/C++, Python, HTML5, CSS, Bootstrap5, Javascript, Django, etc. I have basic
+                    understanding of creating
+                    asynchronous web applications. <br> <em>Learning new technologies to add to this list!!</em></p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experiance')">Experiance</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <!-- ======about skill,edu,expe======= -->
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li>
+                            <span>FRONTEND WEB DEVELOPMENT</span><br>Designing Responsive Website's.
+                        </li>
+                        <li>
+                            <span>PYTHON PROGRAMMING</span><br>Exercising Libraries like Pandas, Numpy, etc.
+                        </li>
+                        <li>
+                            <span>DSA (Data Structure and Algorithm)</span><br>Competative Programming.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experiance">
+                    <ul>
+                        <li><span>upSkill campus internship program (2023- Current)</span><br>internship as Python
+                            Intern</li>
+                        <li><span>internship at BHARAT INTERN (June to July-2023)</span><br>internship as Web
+                            Development Intern.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>B.Tech (Computer Science and Engineering) 2022-Present</span><br>Madhav Institue
+                            of Technology
+                            and
+                            Science(M.I.T.S) College, Gwalior (M.P.)</li>
+                        <li><span>Diploma in Polytechnic 2019-2022 </span><br>Samarat Ashok Technological
+                            Institute
+                            Polytechnic(S.A.T.I) College, Vidisha (M.P.)</li>
+                        <li><span>Secondry and Higher Secondry Education</span><br>Secured First Division in Madhya
+                            Pradesh Board of Education
+                            (M.P. Board)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------services--------- -->
+
+    <div id="Services">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Responsive Website Designing</h2>
+                <p>"Seamless User Experiences: Responsive Website Design Unleashed" The unleashed potential of
+                    responsive design goes beyond aesthetics. By embracing this approach, I empowered businesses to
+                    reach their target audience on any device, without compromising on usability or engagement.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>As an Intern</h2>
+                <p>My internship experience as a trusted service provider has equipped me with a diverse skill set,
+                    enhanced my problem-solving abilities, and solidified my passion for making a difference in the
+                    business world. I am excited to continue this journey, armed with the knowledge gained and the drive
+                    to empower businesses through exceptional service.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Volunteer Work</h2>
+                <p>During my time as a student, I actively volunteered to coordinate and manage various activities at
+                    the college level. I played a crucial role in ensuring the smooth execution of events, fostering a
+                    vibrant campus culture, and providing valuable experiences for my fellow students.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------Projects------- -->
+
+    <div id="portfolio">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Portfolio_Images/Portfolio1.png" alt="">
+                <div class="layer">
+                    <h3>My Personal Portfolio Website</h3>
+                    <p>Unveiling a Dynamic Showcase of Skills. HTML, CSS, and JavaScript harmonize in my portfolio
+                        website, displaying my dedication to web development. Explore a visually captivating and
+                        interactive platform reflecting my unique style and diverse projects. With responsive layouts
+                        and captivating animations, experience, and passion.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Portfolio_Images/LMS.png" alt="152616-removebg-preview (2).png">
+                <div class="layer">
+                    <h3>Library Managment System</h3>
+                    <p> Introducing a Dynamic Library Management System Built with PHP. Simplify the complex task of
+                        organizing and tracking books, patrons, and borrowing records with our PHP-based Library
+                        Management System. Experience a user-friendly interface, seamless integration of data, and
+                        powerful search capabilities.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Portfolio_Images/facedetection.png" alt="">
+                <div class="layer">
+                    <h3>Face Attendence System</h3>
+                    <p>Experience the Next-Level Attendance Tracking: Face Attendance System build in Python. Automate
+                        the process, increase accuracy, and streamline efficiency with our Python-based Face Attendance
+                        System. Say goodbye to manual processes and embrace the future of attendance management</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btnn">See more</a>
+    </div>
+
+    <!-- ---------contact--------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Connect with Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>
+                        amanchourasiya596@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone-square-alt"></i>
+                        6264990448
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/aman.chourasiya.984">
+                            <i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/AmanCho01812700">
+                            <i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/__aman__chourasiya/">
+                            <i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/amujii">
+                            <i class="fab fa-github"></i></i></a>
+                        <a href="https://www.linkedin.com/in/aman-chourasiya-a5bbb3224/">
+                            <i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Portfolio_Images/Resume.pdf" download class="btnn btnn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder=" Type Your Full Name.." required>
+                        <input type="email" name="Email" placeholder="Type Your Valid Email Address.." required>
+                        <textarea name="Messege" rows="6" placeholder="Your Messege... "></textarea>
+                        <button type="submit" class="btnn btnn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <!-- ==========copyright section======== -->
+        <div class="copyright">
+            <p>copyright @This Portfolio Page. Made <i class="fas fa-heart"></i> by ~ Aman Chourasiya </p>
+        </div>
+    </div>
+
+    <!-- --------script section---------- -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Frontend Development.', 'Programmer.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyOPTZECXsNCPiQ5IqGZVDTC-bpsYUbkvWQpcyWC26wqXhAcSmRGHdUmp18G8nlMeP6cA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Messege Send Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
